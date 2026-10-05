@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc41b80f3d55ce84a9bd45e94b22d6c0, type: 3}
+  m_Name: OutsideSceneConfig_Flower
+  m_EditorClassIdentifier: Assembly-CSharp::OutsideSceneConfig
+  sceneId: 
+  pointDataJson: {fileID: 4900000, guid: 7115b040da8a75e42a1e375317ffab3a, type: 3}
+  randomSeed: 0
+  weightedPrefabs:
+  - prefab: {fileID: 5692837943875020578, guid: 3d608fccc1a255648b0be738668a5ca8, type: 3}
+    weight: 1
+  - prefab: {fileID: 5637617570119598752, guid: 5ed8cbbcf598a6b4f91613c67877fe03, type: 3}
+    weight: 1
+  - prefab: {fileID: 4498539047483217525, guid: 363c0384633428945bc795554089ee25, type: 3}
+    weight: 1
+  - prefab: {fileID: 7165272386396800582, guid: 17daf79ef24aa8a4485ff7e332a59ce7, type: 3}
+    weight: 1
+  - prefab: {fileID: 5982216252614057039, guid: 23a4736e77f3d6c489702b2c031a4ecf, type: 3}
+    weight: 1
+  - prefab: {fileID: 1719445795516038656, guid: a4837f3e26bd3064f9166cc79cdc093c, type: 3}
+    weight: 2
+  - prefab: {fileID: 8675637794605540896, guid: 9413a205d79784449972352893d7fa21, type: 3}
+    weight: 1
+  singletonPrefabs: []
+  lightSettings:
+    color: {r: 1, g: 0.75686276, b: 0.21176471, a: 1}
+    intensity: 1
+    localEuler: {x: 50, y: 110, z: 0}
+  secondBaseColorTexture: {fileID: 2800000, guid: 0e3bf8cee61ccb245af1d306daa4c46c, type: 3}
+  wallLerpInDuration: 1
+  wallLerpOutDuration: 6
+  doorFxPrefab: {fileID: 7623230549527721794, guid: 8cbe1050d817b6d41a10b5b6c7c1d7b0, type: 3}
+  doorOpenSound: {fileID: 0}
+  doorCloseSound: {fileID: 0}
+  stayOpenExtraTime: 6
